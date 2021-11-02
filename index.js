@@ -36,8 +36,3 @@ const headerLogoConatiner = document.querySelector(".header__logo-container");
 headerLogoConatiner.addEventListener("click", () => {
   location.href = "index.html";
 });
-
-// ---
-document.querySelector(".btn.contact__btn").addEventListener("click", () => {
-  location.href = "mailto:info@skrabak.it;";
-});
